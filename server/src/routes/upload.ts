@@ -8,7 +8,9 @@ import { promisify } from 'node:util'
 const pump = promisify(pipeline)
 
 export async function uploadRoutes(app: FastifyInstance) {
+  // console.log('No upload!')
   app.post('/upload', async (request, reply) => {
+    // console.log(request.file)
     const upload = await request.file({
       limits: {
         fileSize: 5_242_880, // 5mb
@@ -35,10 +37,14 @@ export async function uploadRoutes(app: FastifyInstance) {
       resolve(__dirname, '..', '..', 'uploads', fileName),
     )
 
-    await pump(upload.file, writeStream)
-
     const fullUrl = request.protocol.concat('://').concat(request.hostname)
+    console.log(fullUrl)
+    console.log(request.hostname)
+
     const fileUrl = new URL(`/uploads/${fileName}`, fullUrl).toString()
+    console.log(fileUrl)
+
+    await pump(upload.file, writeStream)
 
     return { fileUrl }
   })
