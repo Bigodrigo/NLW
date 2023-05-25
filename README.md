@@ -23,11 +23,13 @@
 
 This project has been developed employing the following technologies:
 
-- HTML e CSS
-- JavaScript e JSON
-- [Node e NPM](https://nodejs.org/)
-- [Vite](https://vitejs.dev/)
-- [iMask](https://imask.js.org)
+- HTML, CSS, JS and TS
+- React
+- [Fastify API](https://www.fastify.io/)
+- [Prisma](https://www.prisma.io/)
+- [Tailwind](https://tailwindcss.com/)
+- [Next JS](https://nextjs.org/)
+- [Expo](https://docs.expo.dev/)
 
 ## 💻 Project
 
@@ -46,16 +48,3 @@ This project is under the MIT [LICENSE](LICENSE). For further details, kindly co
 <p align="center">
   Feito com 💜 by Rocketseat
 </p>
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
