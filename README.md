@@ -6,7 +6,7 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-:memo:license">License</a>
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ The proposed software application facilitates memory retrieval and organization 
 
 It is possible to view the project's layout by accessing it through [this link](https://www.figma.com/community/file/1240070456276424762). It is required to have an account on [Figma](https://figma.com) in order to gain access.
 
-## 📝 License
+## :memo: License
 
 This project is under the MIT [LICENSE](LICENSE). For further details, kindly consult the pertinent document.
 
