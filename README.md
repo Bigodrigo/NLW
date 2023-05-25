@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projet">Projet</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#:memo:-license">License</a>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ This project has been developed employing the following technologies:
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
-## 💻 Projet
+## 💻 Project
 
 The proposed software application facilitates memory retrieval and organization by allowing users to input text, photographs, and videos depicting significant milestones in their personal histories, which are then arranged chronologically on a timeline.
 
